@@ -12,17 +12,19 @@ public class csvReader {
     public void readFile(){
 
         String line = "";
+        int lineCounter = 0;
 
         try {
 
             br = new BufferedReader(new FileReader(csvFile));
             while ((line = br.readLine()) != null) {
 
-                // use comma as separator
-                String[] country = line.split(",");
+                String[] row = line.split(",");
+                lineCounter++;
 
-                for (String str : country) {
-                    System.out.println(str);
+                for (int i = 0; i < row.length; i++) {
+                    System.out.println();
+                    System.out.println("line nr " + lineCounter + " / value nr " + i + ": " + row[i]);
                 }
 
             }
