@@ -12,12 +12,12 @@ public class SQLiteManager {
                 Class.forName("org.sqlite.JDBC");
                 conn = DriverManager.getConnection("jdbc:sqlite:test.db");
                 Statement stmt = conn.createStatement();
-                String sql = "CREATE TABLE X" +
+                String sql = "CREATE TABLE IF NOT EXISTS X" +
                         "(ID INT PRIMARY KEY NOT NULL," +
                         " A  TEXT , " +
                         " B  TEXT , " +
                         " C  TEXT , " +
-                        " D  TEXT ," +
+                        " D  TEXT , " +
                         " E  TEXT , " +
                         " F  TEXT , " +
                         " G  TEXT , " +
