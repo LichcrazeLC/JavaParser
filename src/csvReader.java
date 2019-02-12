@@ -27,13 +27,16 @@ public class csvReader {
                     System.out.println("line nr " + lineCounter + " / value nr " + i + ": " + row[i]);
                 }
 
+                cvsEntity newObj = new cvsEntity(row[0], row[1], row[2], row[3], row[4], row[5],
+                                                row[6], row[7], row[8], row[9]);
+
+                Main.tableObjs.add(newObj);
+
             }
 
-        } catch (
-                FileNotFoundException e) {
+        } catch (FileNotFoundException e) {
             e.printStackTrace();
-        } catch (
-                IOException e) {
+        } catch (IOException e) {
             e.printStackTrace();
         } finally {
             if (br != null) {
