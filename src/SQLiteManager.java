@@ -15,7 +15,7 @@ public class SQLiteManager {
         return conn;
     }
 
-    public void createTable() {
+    void createTable() {
 
         try {
             Class.forName("org.sqlite.JDBC");
@@ -44,7 +44,6 @@ public class SQLiteManager {
 
     }
 
-
     public void dropTable() {
 
         try {
@@ -63,7 +62,7 @@ public class SQLiteManager {
 
     }
 
-    public void insertRow(String[] rowData) {
+    void insertRow(String[] rowData) {
 
         try {
             Connection conn = getConnection();

@@ -10,7 +10,7 @@ public class Main {
 
         SQLiteManager dbManager = new SQLiteManager();
 
-        //dbManager.dropTable();
+        dbManager.dropTable();
         dbManager.createTable();
 
         csvReader reader = new csvReader();
