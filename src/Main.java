@@ -7,8 +7,13 @@ public class Main {
     public static List<cvsEntity> tableObjs = new ArrayList<cvsEntity>();
 
     public static void main(String[] args) {
-        csvReader reader = new csvReader();
-        reader.readFile();
+//        csvReader reader = new csvReader();
+//        reader.readFile();
+
+        SQLiteManager dbManager = new SQLiteManager();
+
+        dbManager.openDatabase();
+
     }
 
 }
