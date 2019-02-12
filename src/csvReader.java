@@ -27,10 +27,8 @@ public class csvReader {
                     System.out.println("line nr " + lineCounter + " / value nr " + i + ": " + row[i]);
                 }
 
-                cvsEntity newObj = new cvsEntity(row[0], row[1], row[2], row[3], row[4], row[5],
-                                                row[6], row[7], row[8], row[9]);
-
-                Main.tableObjs.add(newObj);
+                SQLiteManager sqlManag = new SQLiteManager();
+                sqlManag.insertRow(row);
 
             }
 
