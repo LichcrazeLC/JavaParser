@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-02-12T17:51:45</date>
+  <millis>1549986705971</millis>
+  <sequence>0</sequence>
+  <logger>LogManager</logger>
+  <level>INFO</level>
+  <class>LogManager</class>
+  <method>writeToLog</method>
+  <thread>1</thread>
+  <message>Information message</message>
+</record>
+<record>
+  <date>2019-02-12T17:51:45</date>
+  <millis>1549986705980</millis>
+  <sequence>1</sequence>
+  <logger>LogManager</logger>
+  <level>WARNING</level>
+  <class>LogManager</class>
+  <method>writeToLog</method>
+  <thread>1</thread>
+  <message>Warning message</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-02-12T18:08:55</date>
+  <millis>1549987735466</millis>
+  <sequence>0</sequence>
+  <logger>LogManager</logger>
+  <level>INFO</level>
+  <class>LogManager</class>
+  <method>writeToLog</method>
+  <thread>1</thread>
+  <message>#0successful entries 
+#1132bad entries 
+#10874total entries</message>
+</record>
+<record>
+  <date>2019-02-12T18:08:55</date>
+  <millis>1549987735468</millis>
+  <sequence>1</sequence>
+  <logger>LogManager</logger>
+  <level>WARNING</level>
+  <class>LogManager</class>
+  <method>writeToLog</method>
+  <thread>1</thread>
+  <message>Warning message</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-02-12T18:10:04</date>
+  <millis>1549987804583</millis>
+  <sequence>0</sequence>
+  <logger>LogManager</logger>
+  <level>INFO</level>
+  <class>LogManager</class>
+  <method>writeToLog</method>
+  <thread>1</thread>
+  <message>#4871successful entries 
+#1132bad entries 
+#6003total entries</message>
+</record>
+<record>
+  <date>2019-02-12T18:10:04</date>
+  <millis>1549987804588</millis>
+  <sequence>1</sequence>
+  <logger>LogManager</logger>
+  <level>WARNING</level>
+  <class>LogManager</class>
+  <method>writeToLog</method>
+  <thread>1</thread>
+  <message>Warning message</message>
+</record>
+</log>

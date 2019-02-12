@@ -13,23 +13,44 @@ public class csvReader {
 
         String line = "";
         int lineCounter = 0;
+        int badlineCounter = 0;
+        int goodlineCounter = 0;
+
 
         try {
 
             br = new BufferedReader(new FileReader(csvFile));
+            SQLiteManager sqlManag = new SQLiteManager();
+
             while ((line = br.readLine()) != null) {
 
                 String[] row = line.split(",");
-                lineCounter++;
+                boolean goodRecord = true;
 
                 for (int i = 0; i < row.length; i++) {
-                    System.out.println();
+
+                    if (row[i].equals("") || row[i] == null)
+                        goodRecord = false;
+
                     System.out.println("line nr " + lineCounter + " / value nr " + i + ": " + row[i]);
+
                 }
 
-                SQLiteManager sqlManag = new SQLiteManager();
-                sqlManag.insertRow(row);
+                if(goodRecord) {
+                    sqlManag.insertRow(row);
+                    goodlineCounter++;
+                } else {
+                    badlineCounter++;
+                }
 
+                lineCounter++;
+
+            }
+
+            try {
+                LogManager.writeToLog(goodlineCounter, badlineCounter, lineCounter);
+            } catch (IOException e) {
+                e.printStackTrace();
             }
 
         } catch (FileNotFoundException e) {
