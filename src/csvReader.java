@@ -1,6 +1,8 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Arrays;
+import java.util.List;
 
 public class csvReader {
 
@@ -25,7 +27,8 @@ public class csvReader {
 
             while ((line = br.readLine()) != null) {
 
-                String[] row = line.split(",");
+                String[] row = line.split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)", -1);
+
                 boolean goodRecord = true;
 
                 for (int i = 0; i < row.length; i++) {
