@@ -1,5 +1,4 @@
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
@@ -8,6 +7,7 @@ public class csvReader {
 
     String csvFile = "/Users/tekwill/Desktop/csvTable.csv";
     BufferedReader br = null;
+    csvWriter writer = new csvWriter();
 
     public void readFile(){
 
@@ -16,6 +16,7 @@ public class csvReader {
         int badlineCounter = 0;
         int goodlineCounter = 0;
 
+        writer.createFile();
 
         try {
 
@@ -41,11 +42,13 @@ public class csvReader {
                     goodlineCounter++;
                 } else {
                     badlineCounter++;
+                    writer.Write(row);
                 }
 
                 lineCounter++;
 
             }
+
 
             try {
                 LogManager.writeToLog(goodlineCounter, badlineCounter, lineCounter);
@@ -53,8 +56,6 @@ public class csvReader {
                 e.printStackTrace();
             }
 
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
