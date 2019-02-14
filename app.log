@@ -164,3 +164,273 @@
   <message>Warning message</message>
 </record>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-02-14T14:56:39</date>
+  <millis>1550148999796</millis>
+  <sequence>0</sequence>
+  <logger>LogManager</logger>
+  <level>INFO</level>
+  <class>LogManager</class>
+  <method>writeToLog</method>
+  <thread>1</thread>
+  <message>#4871successful entries 
+#1132bad entries 
+#6003total entries</message>
+</record>
+<record>
+  <date>2019-02-14T14:56:39</date>
+  <millis>1550148999824</millis>
+  <sequence>1</sequence>
+  <logger>LogManager</logger>
+  <level>WARNING</level>
+  <class>LogManager</class>
+  <method>writeToLog</method>
+  <thread>1</thread>
+  <message>Warning message</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-02-14T15:18:45</date>
+  <millis>1550150325715</millis>
+  <sequence>0</sequence>
+  <logger>LogManager</logger>
+  <level>INFO</level>
+  <class>LogManager</class>
+  <method>writeToLog</method>
+  <thread>1</thread>
+  <message>#4871successful entries 
+#1132bad entries 
+#6003total entries</message>
+</record>
+<record>
+  <date>2019-02-14T15:18:45</date>
+  <millis>1550150325745</millis>
+  <sequence>1</sequence>
+  <logger>LogManager</logger>
+  <level>WARNING</level>
+  <class>LogManager</class>
+  <method>writeToLog</method>
+  <thread>1</thread>
+  <message>Warning message</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-02-14T15:41:09</date>
+  <millis>1550151669856</millis>
+  <sequence>0</sequence>
+  <logger>LogManager</logger>
+  <level>INFO</level>
+  <class>LogManager</class>
+  <method>writeToLog</method>
+  <thread>1</thread>
+  <message>#4871successful entries 
+#1132bad entries 
+#6003total entries</message>
+</record>
+<record>
+  <date>2019-02-14T15:41:09</date>
+  <millis>1550151669877</millis>
+  <sequence>1</sequence>
+  <logger>LogManager</logger>
+  <level>WARNING</level>
+  <class>LogManager</class>
+  <method>writeToLog</method>
+  <thread>1</thread>
+  <message>Warning message</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-02-14T15:53:36</date>
+  <millis>1550152416417</millis>
+  <sequence>0</sequence>
+  <logger>LogManager</logger>
+  <level>INFO</level>
+  <class>LogManager</class>
+  <method>writeToLog</method>
+  <thread>1</thread>
+  <message>#4871successful entries 
+#1132bad entries 
+#6003total entries</message>
+</record>
+<record>
+  <date>2019-02-14T15:53:36</date>
+  <millis>1550152416443</millis>
+  <sequence>1</sequence>
+  <logger>LogManager</logger>
+  <level>WARNING</level>
+  <class>LogManager</class>
+  <method>writeToLog</method>
+  <thread>1</thread>
+  <message>Warning message</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-02-14T16:34:36</date>
+  <millis>1550154876593</millis>
+  <sequence>0</sequence>
+  <logger>LogManager</logger>
+  <level>INFO</level>
+  <class>LogManager</class>
+  <method>writeToLog</method>
+  <thread>1</thread>
+  <message>#4871successful entries 
+#1132bad entries 
+#6003total entries</message>
+</record>
+<record>
+  <date>2019-02-14T16:34:36</date>
+  <millis>1550154876608</millis>
+  <sequence>1</sequence>
+  <logger>LogManager</logger>
+  <level>WARNING</level>
+  <class>LogManager</class>
+  <method>writeToLog</method>
+  <thread>1</thread>
+  <message>Warning message</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-02-14T16:46:16</date>
+  <millis>1550155576308</millis>
+  <sequence>0</sequence>
+  <logger>LogManager</logger>
+  <level>INFO</level>
+  <class>LogManager</class>
+  <method>writeToLog</method>
+  <thread>1</thread>
+  <message>#4867successful entries 
+#1136bad entries 
+#6003total entries</message>
+</record>
+<record>
+  <date>2019-02-14T16:46:16</date>
+  <millis>1550155576328</millis>
+  <sequence>1</sequence>
+  <logger>LogManager</logger>
+  <level>WARNING</level>
+  <class>LogManager</class>
+  <method>writeToLog</method>
+  <thread>1</thread>
+  <message>Warning message</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-02-14T16:51:27</date>
+  <millis>1550155887007</millis>
+  <sequence>0</sequence>
+  <logger>LogManager</logger>
+  <level>INFO</level>
+  <class>LogManager</class>
+  <method>writeToLog</method>
+  <thread>1</thread>
+  <message>#4867successful entries 
+#1136bad entries 
+#6003total entries</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-02-14T17:00:39</date>
+  <millis>1550156439833</millis>
+  <sequence>0</sequence>
+  <logger>LogManager</logger>
+  <level>INFO</level>
+  <class>LogManager</class>
+  <method>writeToLog</method>
+  <thread>1</thread>
+  <message>#4867successful entries 
+#1136bad entries 
+#6003total entries</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-02-14T17:05:40</date>
+  <millis>1550156740513</millis>
+  <sequence>0</sequence>
+  <logger>LogManager</logger>
+  <level>INFO</level>
+  <class>LogManager</class>
+  <method>writeToLog</method>
+  <thread>1</thread>
+  <message>#4867successful entries 
+#1136bad entries 
+#6003total entries</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-02-14T17:11:21</date>
+  <millis>1550157081631</millis>
+  <sequence>0</sequence>
+  <logger>LogManager</logger>
+  <level>INFO</level>
+  <class>LogManager</class>
+  <method>writeToLog</method>
+  <thread>1</thread>
+  <message>#4867successful entries 
+#1136bad entries 
+#6003total entries</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-02-14T17:16:01</date>
+  <millis>1550157361399</millis>
+  <sequence>0</sequence>
+  <logger>LogManager</logger>
+  <level>INFO</level>
+  <class>LogManager</class>
+  <method>writeToLog</method>
+  <thread>1</thread>
+  <message>#4867successful entries 
+#1136bad entries 
+#6003total entries</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-02-14T17:20:48</date>
+  <millis>1550157648212</millis>
+  <sequence>0</sequence>
+  <logger>LogManager</logger>
+  <level>INFO</level>
+  <class>LogManager</class>
+  <method>writeToLog</method>
+  <thread>1</thread>
+  <message>#4867successful entries 
+#1136bad entries 
+#6003total entries</message>
+</record>
+</log>

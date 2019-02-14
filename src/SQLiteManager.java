@@ -4,8 +4,10 @@ import java.sql.*;
 
 public class SQLiteManager {
 
+    Connection conn;
+
     private Connection getConnection() {
-        String url = "jdbc:sqlite:test.db";
+        String url = "jdbc:sqlite:records.db";
         Connection conn = null;
         try {
             conn = DriverManager.getConnection(url);
@@ -13,6 +15,10 @@ public class SQLiteManager {
             System.out.println(e.getMessage());
         }
         return conn;
+    }
+
+    public SQLiteManager(){
+        this.conn = getConnection();
     }
 
     void createTable() {
@@ -65,28 +71,16 @@ public class SQLiteManager {
     void insertRow(String[] rowData) {
 
         try {
-            Connection conn = getConnection();
 
-            conn.setAutoCommit(false);
+            String sql = "INSERT INTO X(A,B,C,D,E,F,G,H,I,J) VALUES(?,?,?,?,?,?,?,?,?,?)";
 
-            Statement stmt = conn.createStatement();
+            PreparedStatement stmt = this.conn.prepareStatement(sql);
 
-            String sql = "INSERT INTO X(A,B,C,D,E,F,G,H,I,J)" +
-                    "VALUES('" + rowData[0] + "' , '" +
-                    rowData[1] + "' , '" +
-                    rowData[2] + "' , '" +
-                    rowData[3] + "' , '" +
-                    rowData[4] + "' , '" +
-                    rowData[5] + "' , '" +
-                    rowData[6] + "' , '" +
-                    rowData[7] + "' , '" +
-                    rowData[8] + "' , '" +
-                    rowData[9] + "');";
-            stmt.executeUpdate(sql);
+            for (int i = 1; i <= rowData.length; i++) {
+                stmt.setString(i, rowData[i-1]);
+            }
 
-            stmt.close();
-            conn.commit();
-            conn.close();
+            stmt.executeUpdate();
 
         } catch (Exception e) {
             System.err.println(e.getClass().getName() + ": " + e.getMessage());

@@ -1,8 +1,8 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.List;
+import java.sql.SQLException;
+
 
 public class csvReader {
 
@@ -31,13 +31,17 @@ public class csvReader {
 
                 boolean goodRecord = true;
 
-                for (int i = 0; i < row.length; i++) {
+                if (row.length > 10)
+                    goodRecord = false;
+                else {
+                    for (int i = 0; i < row.length; i++) {
 
-                    if (row[i].equals("") || row[i] == null)
-                        goodRecord = false;
+                        if (row[i].equals("") || row[i] == null)
+                            goodRecord = false;
 
-                    System.out.println("line nr " + lineCounter + " / value nr " + i + ": " + row[i]);
+                        System.out.println("line nr " + lineCounter + " / value nr " + i + ": " + row[i]);
 
+                    }
                 }
 
                 if(goodRecord) {
@@ -52,6 +56,7 @@ public class csvReader {
 
             }
 
+            sqlManag.conn.close();
 
             try {
                 LogManager.writeToLog(goodlineCounter, badlineCounter, lineCounter);
@@ -59,7 +64,7 @@ public class csvReader {
                 e.printStackTrace();
             }
 
-        } catch (IOException e) {
+        } catch (IOException | SQLException e) {
             e.printStackTrace();
         } finally {
             if (br != null) {

@@ -18,10 +18,6 @@ public class LogManager {
                         "#" + totalEntries + "total entries");
             }
 
-            if (logger.isLoggable(Level.WARNING)) {
-                logger.warning("Warning message");
-            }
-
         }
 
 }
