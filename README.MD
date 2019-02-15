@@ -21,10 +21,11 @@ A line-by-line output of the file being parsed and more is displayed in the cons
 
 ## Running the project:
 
-Download the JDK mentioned at the top, and the JDBC driver.
-Open the project with any IDE and specify the path to the JDK in the project settings. You can use the jdbc driver by downloading the jar
-file and adding it to the project library. You can then compile & run the app. You can also run it from any CLI. (Main class)
-When the app is built, just run the *Main* class and watch the console for a line-by-line output while the csv file is being parsed.
+1.Download the JDK mentioned at the top, and the JDBC driver.
+
+2.Open the project with any IDE and specify the path to the JDK in the project settings. You can use the jdbc driver by downloading the jar file and adding it to the project library. You can then compile & run the app. You can also run it from any CLI.
+
+3.When the app is built, just run the *Main* class and watch the console for a line-by-line output while the csv file is being parsed.
 
 ## References 
 https://www.tutorialspoint.com/sqlite/sqlite_java.htm jdbc install/usage guide
