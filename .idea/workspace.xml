@@ -3,15 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b16e8880-419e-4a24-ad77-c153c1f55e21" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad-data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bad-data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaParser/LogManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaParser/LogManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaParser/SQLiteManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaParser/SQLiteManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bad-data.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaParser/csvReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaParser/csvReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LogManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SQLiteManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SQLiteManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/records.db" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/csvReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/csvReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.db" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/csvReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="308">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,7 +42,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/csvWriter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
+            <state relative-caret-position="645">
               <caret line="45" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -58,7 +54,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LogManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="285">
               <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -67,15 +63,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SQLiteManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="495">
+              <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,8 +113,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="86" />
-    <option name="y" value="74" />
+    <option name="x" value="109" />
+    <option name="y" value="43" />
     <option name="width" value="1708" />
     <option name="height" value="946" />
   </component>
@@ -150,7 +144,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550157663714" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550233358708" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -206,10 +200,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="86" y="74" width="1708" height="946" extended-state="0" />
+    <frame x="109" y="43" width="1708" height="946" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15846339" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1602641" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -218,7 +212,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32786885" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31381732" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31381732" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.035128806" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -281,18 +275,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/csvWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
+        <state relative-caret-position="645">
           <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/csvReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -301,7 +285,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LogManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="285">
           <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -311,12 +295,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SQLiteManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="495">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/csvReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

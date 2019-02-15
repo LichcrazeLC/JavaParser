@@ -39,8 +39,11 @@ public class csvReader {
                         if (row[i].equals("") || row[i] == null)
                             goodRecord = false;
 
-                        System.out.println("line nr " + lineCounter + " / value nr " + i + ": " + row[i]);
+                        if (row[i].contains(","))
+                            if (!(row[i].charAt(0) == '"') && !(row[i].charAt(row[i].length() - 1) == '"'))
+                                row[i] = '"' + row[i] + '"';
 
+                            System.out.println("line nr " + lineCounter + " / value nr " + i + ": " + row[i]);
                     }
                 }
 
