@@ -3,7 +3,7 @@ Java version 1.8.0_201
 SQLite version 3.19.3
 
 ## Additional tools used:
-JDBC driver 3.32.1
+JDBC driver 3.23.1
 
 ## About:
 
@@ -23,7 +23,7 @@ A line-by-line output of the file being parsed and more is displayed in the cons
 
 Download the JDK mentioned at the top, and the JDBC driver.
 Open the project with any IDE and specify the path to the JDK in the project settings. You can use the jdbc driver by downloading the jar
-file and add it to the project library. You can then compile & run the app. You can also run it from any CLI. (Main class)
+file and adding it to the project library. You can then compile & run the app. You can also run it from any CLI. (Main class)
 When the app is built, just run the *Main* class and watch the console for a line-by-line output while the csv file is being parsed.
 
 ## References 
