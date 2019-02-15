@@ -21,6 +21,8 @@ A line-by-line output of the file being parsed and more is displayed in the cons
 
 ## Running the project:
 
-Open the project with any IDE and compile & run it. You can also run it from any CLI. (Main class)
+Download the JDK mentioned at the top, and the JDBC driver.
+Open the project with any IDE and specify the path to the JDK in the project settings. You can use the jdbc driver by downloading the jar
+file and move it to the project directory. You can then compile & run the app. You can also run it from any CLI. (Main class)
 When the app is built, just run the *Main* class and watch the console for a line-by-line output while the csv file is being parsed. 
 
